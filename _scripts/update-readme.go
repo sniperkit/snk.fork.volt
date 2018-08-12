@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -8,7 +13,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vim-volt/volt/internal/testutil"
+	"github.com/sniperkit/snk.fork.volt/internal/testutil"
 )
 
 func main() {

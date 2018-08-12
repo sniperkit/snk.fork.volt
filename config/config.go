@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package config
 
 import (
 	"fmt"
 
 	"github.com/BurntSushi/toml"
-	"github.com/vim-volt/volt/pathutil"
+
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 // Config is marshallable content of config.toml

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package builder
 
 import (
@@ -9,16 +14,17 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/vim-volt/volt/cmd/buildinfo"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/gitutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/plugconf"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
+
+	"github.com/sniperkit/snk.fork.volt/cmd/buildinfo"
+	"github.com/sniperkit/snk.fork.volt/fileutil"
+	"github.com/sniperkit/snk.fork.volt/gitutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
+	"github.com/sniperkit/snk.fork.volt/plugconf"
 )
 
 type copyBuilder struct {

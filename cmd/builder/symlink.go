@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package builder
 
 import (
@@ -11,12 +16,12 @@ import (
 
 	"gopkg.in/src-d/go-git.v4"
 
-	"github.com/vim-volt/volt/cmd/buildinfo"
-	"github.com/vim-volt/volt/gitutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/plugconf"
+	"github.com/sniperkit/snk.fork.volt/cmd/buildinfo"
+	"github.com/sniperkit/snk.fork.volt/gitutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
+	"github.com/sniperkit/snk.fork.volt/plugconf"
 )
 
 type symlinkBuilder struct {

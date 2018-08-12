@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package logger
 
 import (
@@ -145,7 +150,7 @@ func Debug(msgs ...interface{}) {
 }
 
 func getDebugPrefix() string {
-	const voltDirName = "github.com/vim-volt/volt/"
+	const voltDirName = "github.com/sniperkit/snk.fork.volt/"
 	if logLevel < DebugLevel {
 		return ""
 	}

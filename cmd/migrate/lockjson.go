@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package migrate
 
 import (
 	"errors"
 
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/transaction"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/transaction"
 )
 
 func init() {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -11,12 +16,13 @@ import (
 	"time"
 
 	"github.com/haya14busa/go-vimlparser"
-	"github.com/vim-volt/volt/cmd/builder"
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
+
+	"github.com/sniperkit/snk.fork.volt/cmd/builder"
+	"github.com/sniperkit/snk.fork.volt/config"
+	"github.com/sniperkit/snk.fork.volt/fileutil"
+	"github.com/sniperkit/snk.fork.volt/internal/testutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 // Checks:

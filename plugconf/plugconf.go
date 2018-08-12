@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package plugconf
 
 import (
@@ -13,13 +18,13 @@ import (
 	"strings"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/vim-volt/volt/httputil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
-
 	"github.com/haya14busa/go-vimlparser"
 	"github.com/haya14busa/go-vimlparser/ast"
 	"github.com/haya14busa/go-vimlparser/token"
+
+	"github.com/sniperkit/snk.fork.volt/httputil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 type loadOnType string

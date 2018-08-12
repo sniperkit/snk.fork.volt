@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pathutil
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestNormalizeRepos(t *testing.T) {
 	var tests = []struct {

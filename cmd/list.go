@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -8,8 +13,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 func init() {

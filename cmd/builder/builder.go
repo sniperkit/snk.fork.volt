@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package builder
 
 import (
 	"errors"
 	"os"
 
-	"github.com/vim-volt/volt/cmd/buildinfo"
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/sniperkit/snk.fork.volt/cmd/buildinfo"
+	"github.com/sniperkit/snk.fork.volt/config"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 // Builder creates/updates ~/.vim/pack/volt directory

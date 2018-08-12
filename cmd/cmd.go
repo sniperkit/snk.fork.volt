@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -6,7 +11,7 @@ import (
 	"os/user"
 	"runtime"
 
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 var cmdMap = make(map[string]Cmd)

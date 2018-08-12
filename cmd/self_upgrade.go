@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -15,8 +20,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vim-volt/volt/httputil"
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/httputil"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 func init() {
@@ -65,7 +70,7 @@ func (cmd *selfUpgradeCmd) Run(args []string) int {
 			return 11
 		}
 	} else {
-		latestURL := "https://api.github.com/repos/vim-volt/volt/releases/latest"
+		latestURL := "https://api.github.com/repos/sniperkit/snk.fork.volt/releases/latest"
 		if err = cmd.doSelfUpgrade(latestURL); err != nil {
 			logger.Error("Failed to self-upgrade: " + err.Error())
 			return 12

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -7,11 +12,12 @@ import (
 	"os"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/vim-volt/volt/cmd/builder"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/transaction"
+
+	"github.com/sniperkit/snk.fork.volt/cmd/builder"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
+	"github.com/sniperkit/snk.fork.volt/transaction"
 )
 
 type profileCmd struct {

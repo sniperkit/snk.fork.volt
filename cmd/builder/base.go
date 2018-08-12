@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package builder
 
 import (
@@ -10,11 +15,12 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/vim-volt/volt/cmd/buildinfo"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
+
+	"github.com/sniperkit/snk.fork.volt/cmd/buildinfo"
+	"github.com/sniperkit/snk.fork.volt/fileutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 type BaseBuilder struct{}

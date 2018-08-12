@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package testutil
 
 import (
@@ -13,10 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/sniperkit/snk.fork.volt/config"
+	"github.com/sniperkit/snk.fork.volt/fileutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 var voltCommand string

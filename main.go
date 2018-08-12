@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build go1.9
 
 package main
@@ -5,8 +10,8 @@ package main
 import (
 	"os"
 
-	"github.com/vim-volt/volt/cmd"
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/cmd"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 func main() {

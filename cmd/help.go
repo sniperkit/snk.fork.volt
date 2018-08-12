@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -6,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 // ErrShowedHelp is used in parsing argument function of subcommand when the

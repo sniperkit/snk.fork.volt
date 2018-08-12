@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -5,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vim-volt/volt/cmd/builder"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/transaction"
+	"github.com/sniperkit/snk.fork.volt/cmd/builder"
+	"github.com/sniperkit/snk.fork.volt/logger"
+	"github.com/sniperkit/snk.fork.volt/transaction"
 )
 
 func init() {

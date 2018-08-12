@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -10,12 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
+
+	"github.com/sniperkit/snk.fork.volt/internal/testutil"
+	"github.com/sniperkit/snk.fork.volt/lockjson"
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 // Checks:

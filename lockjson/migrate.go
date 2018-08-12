@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package lockjson
 
 import (
 	"encoding/json"
 
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 func migrate(rawJSON []byte, lockJSON *LockJSON) error {

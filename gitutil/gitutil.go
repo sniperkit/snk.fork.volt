@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package gitutil
 
 import (
@@ -5,9 +10,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/vim-volt/volt/pathutil"
 	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
+
+	"github.com/sniperkit/snk.fork.volt/pathutil"
 )
 
 var refHeadsRx = regexp.MustCompile(`^refs/heads/(.+)$`)

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -6,8 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vim-volt/volt/cmd/migrate"
-	"github.com/vim-volt/volt/logger"
+	"github.com/sniperkit/snk.fork.volt/cmd/migrate"
+	"github.com/sniperkit/snk.fork.volt/logger"
 )
 
 func init() {

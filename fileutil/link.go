@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 /* MIT License
  *
  * Copyright (c) 2017 Roland Singer [roland.singer@desertbit.com]

@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestCompareVersion(t *testing.T) {
 	for _, tt := range []struct {

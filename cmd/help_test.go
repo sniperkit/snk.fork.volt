@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"testing"
 
-	"github.com/vim-volt/volt/internal/testutil"
+	"github.com/sniperkit/snk.fork.volt/internal/testutil"
 )
 
 // 'volt help {cmd}' and 'volt {cmd} -help' output should be same
